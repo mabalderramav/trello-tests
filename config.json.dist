@@ -1,0 +1,25 @@
+[
+  {
+    "name": "GUI",
+    "uiBaseUrl": "https://trello.com",
+    "apiBaseUri": "https://api.trello.com/1",
+    "accounts": [
+      {
+        "user": "user1",
+        "username": "",
+        "email": "",
+        "password": "",
+        "key": "",
+        "token": ""
+      },
+      {
+        "user": "user2",
+        "username": "",
+        "email": "",
+        "password": "",
+        "key": "",
+        "token": ""
+      }
+    ]
+  }
+]
