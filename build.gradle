@@ -50,14 +50,14 @@ tasks.withType(Pmd) {
 task unitTests(type: Test) {
     useTestNG()
     filter{
-        includeTestsMatching "org.fundacionjala.core.*"
+        includeTestsMatching "org.trello.core.*"
     }
 }
 
 task executeBDDTests(type: Test) {
     useTestNG()
     filter{
-        includeTestsMatching "org.fundacionjala.trello.*"
+        includeTestsMatching "org.trello.*"
     }
     options {
         jvmArgs = ['-Dcucumber.execution.strict=' + true]
